@@ -1,0 +1,31 @@
+nav {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none; }
+
+.carousel-slider {
+  position: absolute;
+  top: 0;
+  z-index: -1; }
+
+#img-uno {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/img_slider_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+#img-dos {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/img_slider_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+h1 {
+  padding-top: 10%; }
+
+#btn-color {
+  background-color: #e91e63; }
+
+/*# sourceMappingURL=style.css.map */

@@ -34,28 +34,84 @@
 	</ul>
 	<nav>
 	  <div class="nav-wrapper">
-	    <a href="#!" class="brand-logo">Hestia pro</a>
+	  <div class="container">
+	  <div class="row">
+
+	    <a href="#!" class="brand-logo"><span>Hestia pro</span></a>
 	    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	    <!-- data-beloworigin="true" data-constrainWidth="false" -->
+	    <!--  -->
+
 	    	<ul class="right hide-on-med-and-down">
-	     		<li><a class="dropdown-button" href="#!" data-activates="dropdown1">FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-	      		<li><a class="dropdown-button" href="#!" data-activates="dropdown2">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+	     		<li><a class="dropdown-button" href="#!" data-activates="dropdown1" data-beloworigin="true" data-constrainWidth="false">FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
+	      		<li><a class="dropdown-button" href="#!" data-activates="dropdown2" data-beloworigin="true" data-constrainWidth="false">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
 	      		<li><a href="sass.html" class="waves-light">SHOP</a></li>
 	      		<li><a href="badges.html" class="waves-light">BLOG</a></li>
 	      		<li><a href="badges.html" class="waves-light">CONTACT</a></li>
-	      		<li><a href="badges.html" class="waves-light btn">BUY NOW</a></li>
-	      <!-- Dropdown Trigger -->
+	      		<li><a href="badges.html" class="waves-light btn" id="btn-color">BUY NOW</a></li>
 	    	</ul>
+
 	    	<ul class="side-nav" id="mobile-demo">
-		        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-	      		<li><a class="dropdown-button" href="#!" data-activates="dropdown2">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+	    		<ul class="collapsible" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons right">arrow_drop_down</i>FEATURES</div>
+				      <div class="collapsible-body"><span>
+						<ul>
+							<li><a href="#!">1 minute setup</a></li>
+							<li><a href="#!">fast Updates & Support</a></li>
+							<li><a href="#!">Live Customizer</a></li>
+							<li><a href="#!">Video Tutorial</a></li>
+							<li><a href="#!">Custom Backgrounds</a></li>
+							<li><a href="#!">Responsive Design</a></li>
+							<li><a href="#!">Optimized for Speed</a></li>
+							<li><a href="#!">Translation & RTL Ready</a></li>
+							<li><a href="#!">sep Optimized</a></li>
+							<li><a href="#!">Drag-and-Drop Builder</a></li>
+							<li><a href="#!">WooCommerce Ready</a></li>
+						</ul>
+				      </span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons right">arrow_drop_down</i>SECTIONS</div>
+				      <div class="collapsible-body"><span>
+						<ul>
+							<li><a href="#!">Features</a></li>
+						    <li><a href="#!">About</a></li>
+						    <li><a href="#!">Our team</a></li>
+						    <li><a href="#!">Price</a></li>
+						    <li><a href="#!">Testimonials</a></li>
+						    <li><a href="#!">Subscribe</a></li>
+						    <li><a href="#!">Blog</a></li>
+						    <li><a href="#!">Contact</a></li>
+						</ul>
+				      </span></div>
+				    </li>
+				</ul>
 	      		<li><a href="sass.html" class="waves-light">SHOP</a></li>
 	      		<li><a href="badges.html" class="waves-light">BLOG</a></li>
 	      		<li><a href="badges.html" class="waves-light">CONTACT</a></li>
 	      		<li><a href="badges.html" class="waves-light btn">BUY NOW</a></li>
 	      	</ul>
+
+	   </div>   	
+	  </div>    	
 	  </div>
 	</nav>
+	<section>
+		<div class="carousel carousel-slider center fullscreen" data-indicators="true">
+		    <div class="carousel-fixed-item center">
+		      <a class="waves-effect darken-text-2 btn" id="btn-color">button</a>
+		    </div>
+		    <div id="img-uno" class="carousel-item red white-text" href="#one!">
+		      <h1>Slick Material Design</h1>
+		      <p class="white-text">Beautiful,Elegantly Coded, One-Page Wordpress Theme for Business </p>
+		    </div>
+		    <div id="img-dos" class="carousel-item amber white-text" href="#two!">
+		      <h1>Simple & Awesome</h1>
+		      <p class="white-text">Beautiful,Elegantly Coded</p>
+		    </div>
+		    
+  		</div>
+	</section>
 
 	<script
   src="https://code.jquery.com/jquery-3.2.1.js" 

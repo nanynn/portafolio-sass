@@ -3,29 +3,59 @@ nav {
   color: #fff;
   box-shadow: none; }
 
+#fondo {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 60%; }
+
 .carousel-slider {
   position: absolute;
   top: 0;
   z-index: -1; }
 
 #img-uno {
-  background-color: rgba(0, 0, 0, 0.5);
   background-image: url(../img/img_slider_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
 #img-dos {
-  background-color: rgba(0, 0, 0, 0.5);
   background-image: url(../img/img_slider_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
+.opacidad-fondo {
+  background: rgba(0, 0, 0, 0.1); }
+
+.fondo-dos {
+  background: #fff;
+  padding: 8% 8%;
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 2em; }
+
+.text-uno {
+  width: 65%;
+  margin: 0 auto; }
+
 h1 {
   padding-top: 10%; }
 
+.logo-title {
+  font-size: 16px; }
+
 #btn-color {
   background-color: #e91e63; }
+
+.fondo-tres {
+  background-image: url(../img/img_city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.title-dos {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

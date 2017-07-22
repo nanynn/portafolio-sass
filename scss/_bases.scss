@@ -1,35 +1,68 @@
 nav{
 	background-color: $color_fondo_nav;
 	color:$color_font;
-	box-shadow:none;
+	box-shadow: none;
 }
-
+#fondo{
+	background:$fondo-color;
+	position:$abs-pos;
+	top: 60%;
+}
 .carousel-slider{
-	position:absolute;
+	position:$abs-pos;
 	top:0;
 	z-index: -1;
 }
 
 #img-uno{
-	background-color: rgba(0,0,0,0.5);
 	background-image: url(../img/img_slider_1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: $cubrir;
+	background-repeat: $no-repetir;
+	background-position: $posicion;
 }
 
 #img-dos{
-	background-color: rgba(0,0,0,0.5);
 	background-image: url(../img/img_slider_2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: $cubrir;
+	background-repeat: $no-repetir;
+	background-position: $posicion;
+}
+
+.opacidad-fondo{
+	background:$fondo-color;
+}
+.fondo-dos{
+	background:$fondo-color-dos;
+	padding: 8% 8%;
+	margin: 0 auto;
+	width: 95%;
+	border-radius: 2em;
+}
+.text-uno{
+	width: 65%;
+	margin: 0 auto;
 }
 
 h1{
 	padding-top: 10%;
 }
 
+.logo-title{
+	font-size: 16px;
+}
+
 #btn-color{
-	background-color:#e91e63;
+	background-color:$color-boton;
+}
+
+.fondo-tres{
+	background-image: url(../img/img_city.jpg);
+	background-size: $cubrir;
+	background-repeat: $no-repetir;
+	background-position: $posicion;
+	background-attachment:fixed;
+}
+
+.title-dos{
+	color:$color_font;
 }

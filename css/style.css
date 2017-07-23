@@ -43,6 +43,31 @@ h2, h3, h4 {
 .logo-title {
   font-size: 16px; }
 
+.side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
+  background-color: transparent;
+  border: none;
+  line-height: inherit;
+  height: inherit;
+  padding: 0 16px;
+  color: #000; }
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e91e63;
+  -webkit-box-shadow: 0 1px 0 0 #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63; }
+
 #btn-color {
   background-color: #e91e63; }
 
@@ -168,5 +193,21 @@ h2, h3, h4 {
 
 .espacio-doce {
   padding: 3% 10%; }
+
+.icon-get {
+  padding-top: 70%; }
+
+.btn-contact {
+  width: 100%; }
+
+footer {
+  background-color: #323437; }
+
+.fondo-trece {
+  padding: 3% 10%; }
+
+.img-insta {
+  border-radius: 1em;
+  box-shadow: 0 0 0.3em #000; }
 
 /*# sourceMappingURL=style.css.map */

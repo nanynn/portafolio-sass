@@ -37,6 +37,9 @@ h2, h3, h4 {
 .text {
   color: #a2a2a2; }
 
+.text-pink {
+  color: #e91e63; }
+
 .logo-title {
   font-size: 16px; }
 
@@ -131,5 +134,39 @@ h2, h3, h4 {
 .img-circle {
   width: 30%;
   box-shadow: 0 0 0.3em #000; }
+
+.fondo-nueve {
+  background-image: url(../img/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.espacio-nueve {
+  padding: 3% 30%; }
+
+.fondo-input {
+  background-color: #fff;
+  border-radius: 1em; }
+
+.img-blog {
+  box-shadow: 0 0 0.3em #000; }
+
+.espacio-diez {
+  padding: 3% 10%; }
+
+.btn-read {
+  text-decoration: none; }
+
+.btn-read:hover {
+  color: #e91e63; }
+
+.fondo-doce {
+  background-image: url(../img/img_city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.espacio-doce {
+  padding: 3% 10%; }
 
 /*# sourceMappingURL=style.css.map */

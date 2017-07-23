@@ -42,7 +42,9 @@ h2, h3, h4{
 .text{
 	color: $color-grey;
 }
-
+.text-pink{
+	color: $color-pink;
+}
 .logo-title{
 	font-size: 16px;
 }
@@ -154,4 +156,43 @@ h2, h3, h4{
 .img-circle{
 	width: 30%;
 	box-shadow: $sombra;
+}
+.fondo-nueve{
+	background-image: url(../img/about.jpg);
+	background-size: $cubrir;
+	background-repeat: $no-repetir;
+	background-position: $posicion;
+}
+
+.espacio-nueve{
+	padding: 3% 30%;
+}
+
+.fondo-input{
+	background-color: $color-white;
+	border-radius: 1em;
+}
+
+.img-blog{
+	box-shadow: $sombra;
+}
+.espacio-diez{
+	padding: 3% 10%;
+}
+
+.btn-read{
+	text-decoration: none;
+}
+.btn-read:hover{
+	color: $color-pink;
+}
+
+.fondo-doce{
+	background-image: url(../img/img_city.jpg);
+	background-size: $cubrir;
+	background-repeat: $no-repetir;
+	background-position: $posicion;
+}
+.espacio-doce{
+	padding: 3% 10%;
 }

@@ -3,6 +3,13 @@ nav{
 	color:$color-white;
 	box-shadow: none;
 }
+
+.navbar-color{
+	background-color: $fondo-color-dos;
+	color: $color-black;
+	box-shadow: $sombra;
+}
+
 #fondo{
 	background:$fondo-color;
 	position:$abs-pos;
@@ -90,6 +97,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	border-radius: 2em;
 }
 .fondo-dos{
+	width:100%;
 	padding: 5% 5%;
 }
 .text-uno{

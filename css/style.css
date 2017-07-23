@@ -28,6 +28,15 @@ nav {
 h1 {
   padding-top: 10%; }
 
+h2, h3 {
+  font-family: "Oleo Script", cursive; }
+
+.title {
+  color: #3c4858; }
+
+.text {
+  color: #a2a2a2; }
+
 .logo-title {
   font-size: 16px; }
 
@@ -48,10 +57,23 @@ h1 {
 
 .text-uno {
   width: 65%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #a2a2a2; }
 
 .espacio-dos {
   padding: 5% 0; }
+
+.title {
+  color: #3c4858; }
+
+.color-uno {
+  color: #e91e63; }
+
+.color-dos {
+  color: #00bcd4; }
+
+.color-tres {
+  color: #4caf50; }
 
 .fondo-tres {
   background-image: url(../img/img_city.jpg);
@@ -64,12 +86,27 @@ h1 {
   padding: 3% 10%; }
 
 .espacio-video {
-  padding: 0 0 2% 0; }
+  padding: 0 0 5% 0; }
 
 .video {
   border: 2px solid #fff; }
 
 .fondo-cuatro {
-  padding: 5% 10%; }
+  padding: 3% 10%;
+  background-color: #f0f0f0; }
+
+.title-products {
+  font-family: "Oleo Script", cursive;
+  font-size: 30px;
+  color: #3c4858; }
+
+.title-pink {
+  color: #e91e63; }
+
+.espacio-cinco {
+  padding: 2% 10%; }
+
+#img-portfolio {
+  border-radius: 0.5em; }
 
 /*# sourceMappingURL=style.css.map */

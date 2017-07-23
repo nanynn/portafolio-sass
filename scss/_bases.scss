@@ -1,6 +1,6 @@
 nav{
 	background-color: $color_fondo_nav;
-	color:$color_font;
+	color:$color-white;
 	box-shadow: none;
 }
 #fondo{
@@ -32,12 +32,23 @@ h1{
 	padding-top: 10%;
 }
 
+h2, h3{
+	font-family: $type-tittle;
+}
+
+.title{
+	color: $color-blue;
+}
+.text{
+	color: $color-grey;
+}
+
 .logo-title{
 	font-size: 16px;
 }
 
 #btn-color{
-	background-color:$color-boton;
+	background-color:$color-pink;
 }
 
 .opacidad-fondo{
@@ -55,9 +66,24 @@ h1{
 .text-uno{
 	width: 65%;
 	margin: 0 auto;
+	color: $color-grey;
 }
 .espacio-dos{
 	padding: 5% 0;
+}
+.title{
+	color: $color-blue;
+}
+
+.color-uno{
+	color:$color-pink;
+}
+
+.color-dos{
+	color:#00bcd4;
+}
+.color-tres{
+	color:#4caf50;
 }
 
 .fondo-tres{
@@ -73,7 +99,7 @@ h1{
 }
 
 .espacio-video{
-	padding: 0 0 2% 0;
+	padding: 0 0 5% 0;
 }
 
 .video{
@@ -81,5 +107,24 @@ h1{
 }
 
 .fondo-cuatro{
-	padding: 5% 10%;
+	padding: 3% 10%;
+	background-color: #f0f0f0;
+}
+
+.title-products{
+	font-family: $type-tittle;
+	font-size: 30px;
+	color: $color-blue;
+}
+
+.title-pink{
+	color: $color-pink;
+}
+
+.espacio-cinco{
+	padding: 2% 10%;
+}
+
+#img-portfolio{
+	border-radius: 0.5em;
 }

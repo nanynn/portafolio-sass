@@ -32,7 +32,7 @@ h1{
 	padding-top: 10%;
 }
 
-h2, h3{
+h2, h3, h4{
 	font-family: $type-tittle;
 }
 
@@ -127,4 +127,31 @@ h2, h3{
 
 #img-portfolio{
 	border-radius: 0.5em;
+}
+
+.espacio-seis{
+	padding: 2% 10%;
+}
+
+.img-team{
+	float: right;
+	box-shadow: $sombra;
+}
+.fa{
+	padding-left: 15%;
+}
+
+.fondo-siete{
+	background-color: $color-grey-claro;
+}
+
+.espacio-siete{
+	padding: 2% 10%;
+}
+.espacio-ocho{
+	padding: 3% 10%;
+}
+.img-circle{
+	width: 30%;
+	box-shadow: $sombra;
 }

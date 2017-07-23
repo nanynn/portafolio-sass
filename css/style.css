@@ -28,7 +28,7 @@ nav {
 h1 {
   padding-top: 10%; }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: "Oleo Script", cursive; }
 
 .title {
@@ -108,5 +108,28 @@ h2, h3 {
 
 #img-portfolio {
   border-radius: 0.5em; }
+
+.espacio-seis {
+  padding: 2% 10%; }
+
+.img-team {
+  float: right;
+  box-shadow: 0 0 0.3em #000; }
+
+.fa {
+  padding-left: 15%; }
+
+.fondo-siete {
+  background-color: #f0f0f0; }
+
+.espacio-siete {
+  padding: 2% 10%; }
+
+.espacio-ocho {
+  padding: 3% 10%; }
+
+.img-circle {
+  width: 30%;
+  box-shadow: 0 0 0.3em #000; }
 
 /*# sourceMappingURL=style.css.map */

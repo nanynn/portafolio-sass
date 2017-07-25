@@ -1,59 +1,107 @@
-nav{
+#btn-color{
+	@include btnRosado();
+}
+
+
+h1, h2, h3, h4{
+	font-family: $type-tittle;
+}
+
+.navbar-one{
 	background-color: $color_fondo_nav;
 	color:$color-white;
 	box-shadow: none;
-}
-
-.navbar-color{
+	
+	.navbar-color{
 	background-color: $fondo-color-dos;
 	color: $color-black;
 	box-shadow: $sombra;
+	}
 }
 
-#fondo{
-	background:$fondo-color;
-	position:$abs-pos;
-	top: 60%;
+
+.fondo-todo{
+	@include detallesFondo();
+	
+	.opacidad-fondo{
+		background:$fondo-color;
+	}
+	
+	.title{
+		@include titulo();
+	}
+
+	.text{
+		@include subtitulo();
+	}
 }
+
+
+
 .carousel-slider{
 	position:$abs-pos;
 	top:0;
 	z-index: -1;
-}
 
-#img-uno{
-	background-image: url(../img/img_slider_1.jpg);
-	background-size: $cubrir;
-	background-repeat: $no-repetir;
-	background-position: $posicion;
-}
+	#img-uno{
+	background-image: url(../img/img_slider_1_opacidad.jpg);
+	@include background();
+	}
 
-#img-dos{
-	background-image: url(../img/img_slider_2.jpg);
-	background-size: $cubrir;
-	background-repeat: $no-repetir;
-	background-position: $posicion;
-}
+	#img-dos{
+	background-image: url(../img/img_slider_2_opacidad.jpg);
+	@include background();
+	}
 
-h1{
+	h1{
 	padding-top: 10%;
+	}
 }
 
-h2, h3, h4{
-	font-family: $type-tittle;
-}
+.fondo{
+	background:$fondo-color;
+	position:$abs-pos;
+	top: 55%;
 
-.title{
-	color: $color-blue;
-}
-.text{
+	.fondo-dos{
+		width:100%;
+		padding: 5% 5% 2% 5%;
+	}
+
+	.espacio-dos{
+	padding: 0 15%;
+	}
+
+	.text-uno{
+	width: 65%;
+	margin: 0 auto;
 	color: $color-grey;
+	}
+
+	.text-pink{
+		color: $color-pink;
+	}
+
+	.logo-title{
+		font-size: 16px;
+	}
+	.color-uno{
+	color:$color-pink;
+	}
+
+	.color-dos{
+		color:#00bcd4;
+	}
+	.color-tres{
+		color:#4caf50;
+	}
 }
-.text-pink{
-	color: $color-pink;
-}
-.logo-title{
-	font-size: 16px;
+@media (max-width:1024px){
+	.fondo{
+		background:$fondo-color;
+		position:$abs-pos;
+		top: 38%;
+	}
 }
 
 .side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
@@ -83,172 +131,177 @@ textarea.materialize-textarea:focus:not([readonly]) {
     box-shadow: 0 1px 0 0 $color-pink;
 }
 
-#btn-color{
-	background-color:$color-pink;
-}
-
-.opacidad-fondo{
-	background:$fondo-color;
-}
-.fondo-todo{
-	background:$fondo-color-dos;
-	margin: 0 auto;
-	width: 95%;
-	border-radius: 2em;
-}
-.fondo-dos{
-	width:100%;
-	padding: 5% 5%;
-}
-.text-uno{
-	width: 65%;
-	margin: 0 auto;
-	color: $color-grey;
-}
-.espacio-dos{
-	padding: 5% 0;
-}
-.title{
-	color: $color-blue;
-}
-
-.color-uno{
-	color:$color-pink;
-}
-
-.color-dos{
-	color:#00bcd4;
-}
-.color-tres{
-	color:#4caf50;
-}
-
 .fondo-tres{
-	background-image: url(../img/img_city.jpg);
-	background-size: $cubrir;
-	background-repeat: $no-repetir;
-	background-position: $posicion;
+	background-image: url(../img/img_city_opacidad.jpg);
+	@include background();
 	background-attachment:fixed;
-}
-
-.espacio-tres{
+	.espacio-tres{
 	padding: 3% 10%;
-}
+	}
 
-.espacio-video{
-	padding: 0 0 5% 0;
-}
+	.espacio-video{
+		padding: 0 0 5% 0;
+		margin: 0;
+	}
 
-.video{
-	border: 2px solid #fff;
+	.video{
+		border: 2px solid #fff;
+	}
 }
 
 .fondo-cuatro{
 	padding: 3% 10%;
 	background-color: #f0f0f0;
-}
 
-.title-products{
-	font-family: $type-tittle;
+	.title-products{
 	font-size: 30px;
-	color: $color-blue;
-}
+	}
 
-.title-pink{
-	color: $color-pink;
+	.title-pink{
+		color: $color-pink;
+	}
 }
 
 .espacio-cinco{
 	padding: 2% 10%;
+
+	#img-portfolio{
+	border-radius: 0.5em;
+	}
 }
 
-#img-portfolio{
-	border-radius: 0.5em;
-}
+@media (max-width:1024px){
+	#img-portfolio{
+		padding: 2% 10%;
+		border-radius: 0.5em;
+	}
+}	
 
 .espacio-seis{
 	padding: 2% 10%;
+
+	.img-team{
+		float: right;
+		box-shadow: $sombra;
+	}
+	.fa{
+		padding-left: 15%;
+	}
 }
 
-.img-team{
-	float: right;
-	box-shadow: $sombra;
-}
-.fa{
-	padding-left: 15%;
-}
+@media (max-width:1024px){
+
+	.img-team{
+		width: 100%;
+		margin: 0 auto;
+		box-shadow: $sombra;
+	}
+}	
 
 .fondo-siete{
 	background-color: $color-grey-claro;
+	
+	.espacio-siete{
+	padding: 2% 10%;
+	}
 }
 
-.espacio-siete{
-	padding: 2% 10%;
-}
 .espacio-ocho{
 	padding: 3% 10%;
-}
-.img-circle{
+
+	.img-circle{
 	width: 30%;
 	box-shadow: $sombra;
+	}
 }
+
 .fondo-nueve{
-	background-image: url(../img/about.jpg);
-	background-size: $cubrir;
-	background-repeat: $no-repetir;
-	background-position: $posicion;
-}
-
-.espacio-nueve{
+	background-image: url(../img/about_opacidad.jpg);
+	@include background();
+	
+	.espacio-nueve{
 	padding: 3% 30%;
-}
+	}
 
-.fondo-input{
+	.fondo-input{
 	background-color: $color-white;
+	width: 100%;
 	border-radius: 1em;
+	padding: 0 5%;
+	}
+
+	.btn-suscribe{
+		margin-top: 15%;
+	}
 }
 
-.img-blog{
+@media (max-width:1024px){
+	.fondo-input{
+		background-color: $color-white;
+		margin: 0 auto;
+		border-radius: 1em;
+	}
+}
+
+.fondo-diez{
+	
+	.espacio-diez{
+	padding: 0 10% 3% 10%;
+	}
+
+	.img-blog{
 	box-shadow: $sombra;
-}
-.espacio-diez{
-	padding: 3% 10%;
-}
+	}
 
-.btn-read{
+	.btn-read{
 	text-decoration: none;
-}
-.btn-read:hover{
+	color: $color-blue;
+	}
+
+	.btn-read:hover{
 	color: $color-pink;
+	}
 }
 
-.fondo-doce{
-	background-image: url(../img/img_city.jpg);
-	background-size: $cubrir;
-	background-repeat: $no-repetir;
-	background-position: $posicion;
-}
+.fondo-once{
+	background-image: url(../img/img_city_opacidad.jpg);
+	@include background();
 
-.espacio-doce{
-	padding: 3% 10%;
-}
+	.espacio-once{
+		padding: 3% 10%;
+	}
 
-.icon-get{
-	padding-top: 70%;
-}
+	.fa{
+		float: left;
+		padding-top: 70%;
+	}
 
-.btn-contact{
-	width: $ancho-total;
+	.btn-contact{
+		width: $ancho-total;
+	}
 }
 
 footer{
 	background-color: #323437;
+
+	.fondo-doce{
+		padding: 3% 10%;
+	}
+
+	.img-insta{
+		padding: 2%;
+		width: 100%;
+		border-radius: 1em;
+		box-shadow: $sombra;
+		
+	}
+	.fa{
+		float:left;
+	}
+	.p-test{
+		word-break: break-all;
+	}
 }
 
-.fondo-trece{
-	padding: 3% 10%;
-}
-.img-insta{
-	border-radius: 1em;
-	box-shadow: $sombra;
-}
+/************************************************/
+
